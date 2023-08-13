@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+:root {
+  --tomato: hsl(4, 100%, 67%);
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--charcoal-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: var(--white);
+  display: flex;
+  font-size: 18px;
+  border-radius: 1.5em;
+  padding: 1em;
+  width: clamp(400px, 90vw, 900px);
+}
+
+.container__main {
+  flex-basis: 100%;
+  padding: 2em 2.5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.container__main__text__subtitle,
+.container__main__text__ul li {
+  font-size: 0.85em;
+  color: var(--charcoal-grey);
+}
+
+.container__main__text__title {
+  font-size: 2.75em;
+  color: var(--charcoal-grey);
+
+  margin-bottom: 0.5em;
+}
+
+.container__main__text__subtitle {
+  margin-bottom: 1.5em;
+}
+
+.container__main__text__ul {
+}
+
+.container__main__text__ul li {
+  list-style: inside url(/assets/images/icon-list.svg);
+}
+
+.container__main__text__ul li + li {
+  margin-top: 0.4em;
+}
+
+/* -- all inputs --*/
+.container__main__form input {
+  padding: 1.2em;
+  width: 100%;
+  border-radius: 0.5em;
+  font-size: 0.8em;
+}
+
+.container__main__form__label {
+  font-weight: 700;
+  color: var(--charcoal-grey);
+  font-size: 0.75em;
+  line-height: 2.75em;
+}
+
+.container__main__form__email {
+  border: 1px var(--grey) solid;
+}
+
+.container__main__form__submit {
+  margin-top: 1.5em;
+  background-color: var(--dark-slate-grey);
+  color: var(--white);
+  border: none;
+  font-weight: 700;
+}
+
+.container__img {
+  flex-basis: 100%;
+  height: 100%;
+}
+
+.container__img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    font-size: 16px;
+  }
+
+  .container__main {
+    padding: 0 1.5em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column-reverse;
+    padding: 0;
+    width: clamp(300px, 70vw, 700px);
+    justify-content: flex-end;
+  }
+
+  .container__img img {
+    height: 100%;
+    content: url(./assets/images/illustration-sign-up-mobile.svg);
+  }
+
+  .container__main {
+    padding: 2.5em;
+  }
+
+  .container__main__text__subtitle,
+  .container__main__text__ul li {
+    font-size: 1.2em;
+  }
+}

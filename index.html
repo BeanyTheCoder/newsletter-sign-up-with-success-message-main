@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__main">
+        <div class="container__main__text">
+          <h1 class="container__main__text__title">Stay updated!</h1>
+          <p class="container__main__text__subtitle">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+
+          <ul class="container__main__text__ul">
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+        </div>
+
+        <form class="container__main__form" action="completed.html">
+          <label class="container__main__form__label" for="email"
+            >Email address</label
+          >
+          <input
+            class="container__main__form__email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@company.com"
+            required />
+
+          <input
+            class="container__main__form__submit"
+            type="submit"
+            value="Subscribe to monthly newsletter" />
+        </form>
+      </div>
+      <div class="container__img">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
