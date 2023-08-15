@@ -8,13 +8,15 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/images/favicon-32x32.png" />
+      href="./assets/images/favicon-32x32.png"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
     <title>
@@ -47,17 +49,22 @@
             name="email"
             id="email"
             placeholder="email@company.com"
-            required />
+            required
+            oninput="validateEmail()"
+          />
 
           <input
             class="container__main__form__submit"
             type="submit"
-            value="Subscribe to monthly newsletter" />
+            value="Subscribe to monthly newsletter"
+          />
         </form>
       </div>
       <div class="container__img">
         <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" />
       </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
