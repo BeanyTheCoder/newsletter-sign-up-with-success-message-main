@@ -2,17 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto";
+  font-family: "Roboto", "sans-serif";
 }
 
 :root {
   --tomato: hsl(4, 100%, 67%);
-  --orange-shadow: hsla(15, 100%, 61%, 0.199);
+  --orange-shadow: hsla(15, 100%, 61%, 0.2);
   --gradient: linear-gradient(90deg, hsl(355, 100%, 67%), hsl(15, 100%, 61%));
   --dark-slate-grey: hsl(234, 29%, 20%);
   --charcoal-grey: hsl(235, 18%, 26%);
   --grey: hsl(231, 7%, 60%);
   --white: hsl(0, 0%, 100%);
+
+  --valid: rgb(52, 128, 30);
+  --valid-transparent: rgb(52, 128, 30, 10%);
+
+  --invalid: rgb(201, 48, 1);
+  --invalid-transparent: rgb(201, 48, 1, 10%);
 }
 
 body {
@@ -93,11 +99,15 @@ body {
 }
 
 .container__main__form__email.invalid {
-  color: rgb(201, 48, 1);
+  border: var(--invalid) 1px solid;
+  color: var(--invalid);
+  background-color: var(--invalid-transparent);
 }
 
 .container__main__form__email.valid {
-  color: rgb(52, 128, 30);
+  border: var(--valid) 1px solid;
+  background-color: var(--valid-transparent);
+  color: var(--valid);
 }
 
 .container__main__form__submit {

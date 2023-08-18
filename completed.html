@@ -3,19 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="completed.css" />
     <title>
       Frontend Mentor | Newsletter sign-up form with success message
     </title>
   </head>
   <body>
     <div class="container">
-      <h1 class="container__title">Thanks for subscribing</h1>
-      <p>
+      <div class="container__img">
+        <img src="/assets/images/icon-success.svg" alt="" />
+      </div>
+      <h1 class="container__title">Thanks for subscribing!</h1>
+      <p class="container__text">
         A confirmation email has been sent to
-        <span>ash@loremcompany.com.</span> Please open it and click the button
+        <span id="emailText">ash@loremcompany.com.</span> Please open it and click the button
         inside to confirm your subscription.
       </p>
-      <input type="submit" value="Dismiss message" />
+      <a class="container__button" href="./index.html">Dissmiss message</a>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
