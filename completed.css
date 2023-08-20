@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+}
+
+:root {
+  --orange-shadow: hsla(15, 100%, 61%, 0.199);
+  --gradient: linear-gradient(90deg, hsl(355, 100%, 67%), hsl(15, 100%, 61%));
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--charcoal-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background-color: var(--white);
+  flex-direction: column;
+  padding: 3em;
+  gap: 2em;
+
+  border-radius: 2.25em;
+
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  width: clamp(300px, 80vw, 420px);
+}
+
+.container__img img {
+  width: 55px;
+  cursor: pointer;
+}
+
+.container__title {
+  font-size: 2.75em;
+  color: var(--dark-slate-grey);
+  line-height: 110%;
+}
+
+.container__text {
+  line-height: 150%;
+  color: var(--dark-slate-grey);
+  font-size: 0.9em;
+}
+
+.container__text span {
+  font-weight: 700;
+}
+
+.container__button {
+  text-align: center;
+  text-decoration: none;
+  padding: 1.2em;
+  width: 100%;
+  border-radius: 0.5em;
+  font-size: 0.75em;
+
+  /* to prevent white flashing when i hover, i use a linear gradient here with only 1 color*/
+  background: linear-gradient(var(--dark-slate-grey), var(--dark-slate-grey));
+
+  color: var(--white);
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: scale 200ms;
+}
+
+.container__button:hover,
+.container__button:focus {
+  background: var(--gradient);
+  box-shadow: 0 20px 20px 0px var(--orange-shadow);
+  scale: 1.025;
+  outline: 0;
+}
