@@ -4,7 +4,7 @@
 
 ## Welcome 👋
 
-This is a solution to the [(project-name) challenge on Frontend Mentor](link). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Newsletter signup form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents 📑
 
@@ -39,11 +39,19 @@ Users should be able to:
 
 _My solution (Desktop):_
 
-![image of desktop solution]()
+![image of desktop solution](image.png)
+
+_Success (Desktop):_
+
+![image of success page desktop](image-1.png)
 
 _My solution (Mobile)_
 
 ![image of mobile solution]()
+
+_Success (Mobile):_
+
+![image of success page mobile]()
 
 ### Links 🔗
 

@@ -50,7 +50,7 @@ body {
 
 .container__main__text__subtitle,
 .container__main__text__ul li {
-  font-size: 0.85em;
+  font-size: 0.9em;
   color: var(--charcoal-grey);
 }
 
@@ -74,12 +74,12 @@ body {
   margin-top: 0.4em;
 }
 
-/* -- all inputs --*/
 .container__main__form input {
   padding: 1.2em;
   width: 100%;
   border-radius: 0.5em;
-  font-size: 0.75em;
+  font-size: 0.8rem;
+
 }
 
 .container__main__form__label {
@@ -171,13 +171,13 @@ body {
   }
 
   .container__main__form input {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
 }
 
 @media screen and (max-width: 400px) {
   .container {
-    height: 100vh;
+    min-height: 100vh;
     border-radius: 0;
   }
 }

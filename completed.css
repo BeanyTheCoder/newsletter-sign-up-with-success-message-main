@@ -26,12 +26,11 @@ body {
   background-color: var(--white);
   flex-direction: column;
   padding: 3em;
-  gap: 2em;
 
   border-radius: 2.25em;
 
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-  width: clamp(300px, 80vw, 420px);
+  width: clamp(300px, 100vw, 420px);
 }
 
 .container__img img {
@@ -42,13 +41,15 @@ body {
 .container__title {
   font-size: 2.75em;
   color: var(--dark-slate-grey);
-  line-height: 110%;
+  line-height: 105%;
+  margin: 0.5em 0;
 }
 
 .container__text {
   line-height: 150%;
   color: var(--dark-slate-grey);
   font-size: 0.9em;
+  margin-bottom: 2.5em;
 }
 
 .container__text span {
@@ -79,4 +80,13 @@ body {
   box-shadow: 0 20px 20px 0px var(--orange-shadow);
   scale: 1.025;
   outline: 0;
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    padding: 3em 1em;
+    min-height: 100vh;
+    border-radius: 0;
+    justify-content: center;
+  }
 }
