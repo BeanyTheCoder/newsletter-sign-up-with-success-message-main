@@ -55,50 +55,45 @@ _Success (Mobile):_
 
 ### Links 🔗
 
-- Solution repo on github [here]()
+- Solution repo on github [here](https://github.com/BeanyTheCoder/newsletter-sign-up-with-success-message-main)
 
 ## My process 🏗️
 
 ### Built with 🛠️
 
-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quo.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quo.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quo.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quo.
+- HTML & CSS
+- JavaScript(Regex and Form Validation)
 
 ### What I learned 🧠
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, optio eveniet. Numquam aliquam cumque eligendi voluptatem, incidunt architecto. Reprehenderit, tempore!
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+I learned a bit on form validation, specifically regular expressions(_regex_) and how to handle form submits
 
 ```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+// some simple regex code:
+pussy
+```
+
+Also learned the `:valid` and `:invalid` pseudoclasses, which I never knew existed!
+
+```css
+input:valid {
+  color: green;
+}
+
+input:invalid {
+  color: red;
+}
 ```
 
 ### Continued development 🚀
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, optio eveniet. Numquam aliquam cumque eligendi voluptatem, incidunt architecto. Reprehenderit, tempore!
+placeholder
 
 ### Useful resources 📚
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [RegExr](https://regexr.com/) - This helped me play around with the RegEx syntax and gave me a good grip on it. Be sure to check em' out.
 
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-## Acknowledgments 🙏
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, optio eveniet. Numquam aliquam cumque eligendi voluptatem, incidunt architecto. Reprehenderit, tempore!
 
 ## Contact 📧
 
