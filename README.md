@@ -39,11 +39,11 @@ Users should be able to:
 
 _My solution (Desktop):_
 
-![image of desktop solution](image.png)
+![image of desktop solution](./readme-images/desktop.png)
 
 _Success (Desktop):_
 
-![image of success page desktop](image-1.png)
+![image of success page desktop](./readme-images/desktop-success.png)
 
 _My solution (Mobile)_
 
