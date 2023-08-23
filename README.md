@@ -56,6 +56,8 @@ _Success (Mobile):_
 ### Links 🔗
 
 - Solution repo on github [here](https://github.com/BeanyTheCoder/newsletter-sign-up-with-success-message-main)
+- Solution link on Front End Mentor: [here](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-WJWYfDTJDR)
+
 
 ## My process 🏗️
 
@@ -92,8 +94,6 @@ placeholder
 ### Useful resources 📚
 
 - [RegExr](https://regexr.com/) - This helped me play around with the RegEx syntax and gave me a good grip on it. Be sure to check em' out.
-
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Contact 📧
 
