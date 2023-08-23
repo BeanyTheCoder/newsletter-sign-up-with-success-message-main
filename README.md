@@ -27,13 +27,13 @@ This is a solution to the [Newsletter signup form challenge on Frontend Mentor](
 
 Users should be able to:
 
-- Add their email and submit the form
-- See a success message with their email after successfully submitting the form
-- See form validation messages if:
-  - The field is left empty
-  - The email address is not formatted correctly
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- ✅ Add their email and submit the form
+- ✅ See a success message with their email after successfully submitting the form
+- ❌ See form validation messages if:
+  - ❌ The field is left empty
+  - ❌ The email address is not formatted correctly
+- ✅ View the optimal layout for the interface depending on their device's screen size
+- ✅ See hover and focus states for all interactive elements on the page
 
 ### Screenshots 📷
 
@@ -58,7 +58,6 @@ _Success (Mobile):_
 - Solution repo on github [here](https://github.com/BeanyTheCoder/newsletter-sign-up-with-success-message-main)
 - Solution link on Front End Mentor: [here](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-WJWYfDTJDR)
 
-
 ## My process 🏗️
 
 ### Built with 🛠️
@@ -72,7 +71,7 @@ I learned a bit on form validation, specifically regular expressions(_regex_) an
 
 ```js
 // some simple regex code:
-pussy
+pussy;
 ```
 
 Also learned the `:valid` and `:invalid` pseudoclasses, which I never knew existed!
