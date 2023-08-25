@@ -27,23 +27,23 @@ This is a solution to the [Newsletter signup form challenge on Frontend Mentor](
 
 Users should be able to:
 
-- Add their email and submit the form
-- See a success message with their email after successfully submitting the form
-- See form validation messages if:
-  - The field is left empty
-  - The email address is not formatted correctly
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- ✅ Add their email and submit the form
+- ✅ See a success message with their email after successfully submitting the form
+- ❌ See form validation messages if:
+  - ❌ The field is left empty
+  - ❌ The email address is not formatted correctly
+- ✅ View the optimal layout for the interface depending on their device's screen size
+- ✅ See hover and focus states for all interactive elements on the page
 
 ### Screenshots 📷
 
 _My solution (Desktop):_
 
-![image of desktop solution](image.png)
+![image of desktop solution](./readme-images/desktop.png)
 
 _Success (Desktop):_
 
-![image of success page desktop](image-1.png)
+![image of success page desktop](./readme-images/desktop-success.png)
 
 _My solution (Mobile)_
 
@@ -56,6 +56,7 @@ _Success (Mobile):_
 ### Links 🔗
 
 - Solution repo on github [here](https://github.com/BeanyTheCoder/newsletter-sign-up-with-success-message-main)
+- Solution link on Front End Mentor: [here](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-WJWYfDTJDR)
 
 ## My process 🏗️
 
