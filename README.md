@@ -8,18 +8,18 @@ This is a solution to the [Newsletter signup form challenge on Frontend Mentor](
 
 ## Table of contents 📑
 
-- [Overview](#overview-🌟)
-  - [The Challenge](#the-challenge-🧪)
-  - [Screenshots](#screenshots-📷)
-  - [Links](#links-🔗)
-- [My process](#my-process-🏗️)
-  - [Built with](#built-with-🛠️)
-  - [What I learned](#what-i-learned-🧠)
-  - [Continued development](#continued-development-🚀)
-  - [Useful resources](#useful-resources-📚)
-- [Acknowledgments](#acknowledgments-🙏)
-- [Contact](#contact-📧)
-- [Author](#author-👤)
+- [Overview 🌟](#overview-🌟)
+  - [The Challenge 🧪](#the-challenge-🧪)
+  - [Screenshots 📷](#screenshots-📷)
+  - [Links 🔗](#links-🔗)
+- [My process 🏗️](#my-process-🏗️)
+  - [Built with 🛠️](#built-with-🛠️)
+  - [What I learned 🧠](#what-i-learned-🧠)
+  - [Continued development 🚀](#continued-development-🚀)
+  - [Useful resources 📚](#useful-resources-📚)
+- [Acknowledgments 🙏](#acknowledgments-🙏)
+- [Contact 📧](#contact-📧)
+- [Author 👤](#author-👤)
 
 ## Overview 🌟
 
@@ -69,8 +69,8 @@ _Success (Mobile):_
 I learned a bit on form validation, specifically regular expressions(_regex_) and how to handle form submits
 
 ```js
-// some simple regex code:
-pussy
+// some simple regex code, that selects every character from A-Z:
+let regex = ([A-Z])\
 ```
 
 Also learned the `:valid` and `:invalid` pseudoclasses, which I never knew existed!
@@ -92,8 +92,6 @@ placeholder
 ### Useful resources 📚
 
 - [RegExr](https://regexr.com/) - This helped me play around with the RegEx syntax and gave me a good grip on it. Be sure to check em' out.
-
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Contact 📧
 
