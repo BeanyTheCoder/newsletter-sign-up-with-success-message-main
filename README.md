@@ -41,6 +41,8 @@ _My solution (Desktop):_
 
 ![image of desktop solution](./readme-images/desktop.png)
 
+_NB: I make the card a bit smaller by setting a `max-height` for the image. This is so it looks good even on narrower desktop screens(like mine)_ 
+
 _Success (Desktop):_
 
 ![image of success page desktop](./readme-images/desktop-success.png)
@@ -71,8 +73,18 @@ I learned a bit on form validation, specifically regular expressions(_regex_) an
 
 ```js
 // some simple regex code, that selects every character from A-Z:
-let regex = ([A-Z])\
+
+let text = "I have 3 apples and 5 bananas.";
+
+let numberRegex = /\d+/g;
+let numberMatches = text.match(numberRegex);
+
+console.log(numberMatches); // Output: ["3", "5"]
 ```
+
+In the above example, the regex `\d+` matches one or more digits (0-9) in the text. The `g` flag is used to find all occurrences of the pattern in the input string.
+
+---
 
 Also learned the `:valid` and `:invalid` pseudoclasses, which I never knew existed!
 

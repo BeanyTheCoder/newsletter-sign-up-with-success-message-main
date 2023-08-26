@@ -7,18 +7,18 @@
 
 :root {
   --tomato: hsl(4, 100%, 67%);
-  --orange-shadow: hsla(15, 100%, 61%, 0.2);
+  --orange-shadow: rgba(255, 106, 56, 0.25);
   --gradient: linear-gradient(90deg, hsl(355, 100%, 67%), hsl(15, 100%, 61%));
   --dark-slate-grey: hsl(234, 29%, 20%);
   --charcoal-grey: hsl(235, 18%, 26%);
   --grey: hsl(231, 7%, 60%);
   --white: hsl(0, 0%, 100%);
 
-  --valid: rgb(52, 128, 30);
-  --valid-transparent: rgb(52, 128, 30, 10%);
+  --valid: hsl(107, 62%, 31%);
+  --valid-transparent: hsla(107, 62%, 31%, 0.1);
 
-  --invalid: rgb(201, 48, 1);
-  --invalid-transparent: rgb(201, 48, 1, 10%);
+  --invalid: hsl(14, 97%, 43%);
+  --invalid-transparent: hsla(14, 99%, 40%, 0.1);
 }
 
 body {
@@ -41,7 +41,7 @@ body {
 
 .container__main {
   flex-basis: 100%;
-  padding: 0 2.5em;
+  padding: 0 3em;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -56,7 +56,7 @@ body {
 
 .container__main__text__title {
   font-size: 2.75em;
-  color: var(--charcoal-grey);
+  color: var(--dark-slate-grey);
 
   margin-bottom: 0.3em;
 }
@@ -74,40 +74,62 @@ body {
   margin-top: 0.4em;
 }
 
+/* in script.js i'm adding valid and invalid classes to the form, so that we can
+select the input and error elements without having to add
+seperate classes */
+.container__main__form.invalid input:first-of-type {
+  border: var(--invalid) 1px solid;
+  color: var(--invalid);
+  background-color: var(--invalid-transparent);
+}
+
+.container__main__form.valid input:first-of-type {
+  border: var(--valid) 1px solid;
+  background-color: var(--valid-transparent);
+  color: var(--valid);
+}
+
+.container__main__form.invalid #error {
+  display: block;
+}
+
+.container__main__form.valid #error {
+  display: none;
+}
+
+/* default styles for inputs in form */
 .container__main__form input {
   padding: 1.2em;
   width: 100%;
-  border-radius: 0.5em;
+  border-radius: 6px;
   font-size: 0.8rem;
-
 }
 
-.container__main__form__label {
+.container__main__form__toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__main__form__toolbar__label {
   font-weight: 700;
   color: var(--charcoal-grey);
   font-size: 0.75em;
   line-height: 2.75em;
 }
 
+.container__main__form__toolbar__label#error {
+  color: var(--invalid);
+}
+
 .container__main__form__email {
   border: 1px var(--grey) solid;
+  cursor: pointer;
 }
 
-.container__main__form__email:focus {
+.container__main__form__email:focus,
+.container__main__form__email:hover {
   border: 1px var(--dark-slate-grey) solid;
   outline: 0;
-}
-
-.container__main__form__email.invalid {
-  border: var(--invalid) 1px solid;
-  color: var(--invalid);
-  background-color: var(--invalid-transparent);
-}
-
-.container__main__form__email.valid {
-  border: var(--valid) 1px solid;
-  background-color: var(--valid-transparent);
-  color: var(--valid);
 }
 
 .container__main__form__submit {
@@ -133,7 +155,7 @@ body {
   flex-basis: 100%;
   display: flex;
   justify-content: flex-end;
-  padding: 1em;
+  padding: 1.25em;
   padding-left: 0;
 }
 

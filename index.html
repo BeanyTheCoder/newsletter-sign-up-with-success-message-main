@@ -8,15 +8,13 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
+      href="./assets/images/favicon-32x32.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
     <title>
@@ -40,23 +38,27 @@
         </div>
 
         <form class="container__main__form" action="completed.html">
-          <label class="container__main__form__label" for="email"
-            >Email address</label
-          >
+          <div class="container__main__form__toolbar">
+            <label class="container__main__form__toolbar__label" for="email"
+              >Email address</label
+            >
+            <p class="container__main__form__toolbar__label" id="error">
+              Valid email required
+            </p>
+          </div>
+
           <input
             class="container__main__form__email"
             type="email"
             name="email"
             id="emailInput"
             placeholder="email@company.com"
-            required
-          />
+            required />
 
           <input
             class="container__main__form__submit"
             type="submit"
-            value="Subscribe to monthly newsletter"
-          />
+            value="Subscribe to monthly newsletter" />
         </form>
       </div>
       <div class="container__img">
