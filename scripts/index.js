@@ -1,5 +1,5 @@
 let emailInput = document.querySelector("#emailInput");
-let emailErrorMsg = document.querySelector("#error");
+let emailInputValue;
 
 let form = document.querySelector(".container__main__form");
 let emailRegex = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,8}$/;
@@ -20,9 +20,13 @@ emailInput.addEventListener("input", () => {
 });
 
 form.addEventListener("submit", (event) => {
-  event.preventDefault()
+  event.preventDefault();
 
   if (validateEmail()) {
-    form.submit()
+    emailInputValue = emailInput.value;
+    form.submit();
   }
 });
+
+export { emailInputValue };
+

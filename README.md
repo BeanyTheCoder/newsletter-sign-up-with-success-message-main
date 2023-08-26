@@ -98,6 +98,10 @@ input:invalid {
 }
 ```
 
+---
+
+I also organised my files a bit more than in other projects _(because of the 2 html, css and js files i use instead of the usual 1)_
+
 ### Continued development 🚀
 
 placeholder

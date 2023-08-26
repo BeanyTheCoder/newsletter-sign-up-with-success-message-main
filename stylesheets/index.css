@@ -119,6 +119,7 @@ seperate classes */
 
 .container__main__form__toolbar__label#error {
   color: var(--invalid);
+  display: none;
 }
 
 .container__main__form__email {
