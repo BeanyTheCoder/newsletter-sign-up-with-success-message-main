@@ -34,8 +34,6 @@ body {
   display: flex;
   font-size: 16px;
   border-radius: 1.5em;
-  /* padding: 1em; */
-  width: fit-content;
   width: clamp(400px, 90vw, 780px);
 }
 
@@ -66,12 +64,20 @@ body {
   line-height: 1.5em;
 }
 
-.container__main__text__ul li {
-  list-style: inside url(/assets/images/icon-list.svg);
+.container__main__text__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
-.container__main__text__ul li + li {
-  margin-top: 0.4em;
+.container__main__text__ul__list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.container__main__text__ul__list-item li {
+  list-style: none;
 }
 
 /* in script.js i'm adding valid and invalid classes to the form, so that we can
@@ -180,12 +186,16 @@ seperate classes */
   }
 
   .container__img img {
-    content: url(./assets/images/illustration-sign-up-mobile.svg);
+    content: url(../assets/images/illustration-sign-up-mobile.svg);
   }
 
   .container__main {
     padding: 2.5em;
     flex-basis: unset;
+  }
+
+  .container__main__text__title {
+    font-size: 3em;
   }
 
   .container__main__text__subtitle,
@@ -202,5 +212,9 @@ seperate classes */
   .container {
     min-height: 100vh;
     border-radius: 0;
+  }
+
+  .container__main {
+    padding: 2.5em 1.75em;
   }
 }

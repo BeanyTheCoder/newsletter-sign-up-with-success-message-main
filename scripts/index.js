@@ -1,4 +1,4 @@
-let emailInput = document.querySelector("#emailInput");
+  let emailInput = document.querySelector("#emailInput");
 let emailInputValue;
 
 let form = document.querySelector(".container__main__form");
