@@ -30,39 +30,39 @@ body {
   border-radius: 2.25em;
 
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-  width: clamp(300px, 100vw, 420px);
+  width: clamp(300px, 100vw, 440px);
 }
 
-.container__img img {
+.container__main__img img {
   width: 55px;
   cursor: pointer;
 }
 
-.container__title {
+.container__main__title {
   font-size: 2.75em;
   color: var(--dark-slate-grey);
-  line-height: 105%;
+  line-height: 100%;
   margin: 0.5em 0;
 }
 
-.container__text {
-  line-height: 150%;
+.container__main__text {
+  line-height: 165%;
   color: var(--dark-slate-grey);
-  font-size: 0.9em;
+  font-size: 0.95em;
   margin-bottom: 2.5em;
 }
 
-.container__text span {
+.container__main__text span {
   font-weight: 700;
 }
 
 .container__button {
   text-align: center;
   text-decoration: none;
-  padding: 1.2em;
+  padding: 1.3em;
   width: 100%;
   border-radius: 0.5em;
-  font-size: 0.75em;
+  font-size: 0.95em;
 
   /* to prevent white flashing when i hover, i use a linear gradient here with only 1 color*/
   background: linear-gradient(var(--dark-slate-grey), var(--dark-slate-grey));
@@ -82,11 +82,19 @@ body {
   outline: 0;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 440px) {
   .container {
-    padding: 3em 1em;
+    padding: 3em 1.5em;
     min-height: 100vh;
     border-radius: 0;
-    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .container__main {
+    margin-top: 7em;
+  }
+
+  .container__button {
+    font-size: 0.9em;
   }
 }

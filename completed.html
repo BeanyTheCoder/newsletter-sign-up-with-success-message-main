@@ -7,8 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" href="./stylesheets/completed.css" />
     <title>
       Frontend Mentor | Newsletter sign-up form with success message
@@ -16,15 +15,17 @@
   </head>
   <body>
     <div class="container">
-      <div class="container__img">
-        <img src="/assets/images/icon-success.svg" alt="" />
+      <div class="container__main">
+        <div class="container__main__img">
+          <img src="/assets/images/icon-success.svg" alt="" />
+        </div>
+        <h1 class="container__main__title">Thanks for subscribing!</h1>
+        <p class="container__main__text">
+          A confirmation email has been sent to
+          <span id="emailText">ash@loremcompany.com.</span> Please open it and
+          click the button inside to confirm your subscription.
+        </p>
       </div>
-      <h1 class="container__title">Thanks for subscribing!</h1>
-      <p class="container__text">
-        A confirmation email has been sent to
-        <span id="emailText">ash@loremcompany.com.</span> Please open it and click the button
-        inside to confirm your subscription.
-      </p>
       <a class="container__button" href="./index.html">Dissmiss message</a>
     </div>
 
