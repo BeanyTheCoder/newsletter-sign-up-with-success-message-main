@@ -85,8 +85,8 @@ select the input and error elements without having to add
 seperate classes */
 .container__main__form.invalid input:first-of-type {
   border: var(--invalid) 1px solid;
-  color: var(--invalid);
   background-color: var(--invalid-transparent);
+  color: var(--invalid);
 }
 
 .container__main__form.valid input:first-of-type {
@@ -130,7 +130,6 @@ seperate classes */
 
 .container__main__form__email {
   border: 1px var(--grey) solid;
-  cursor: pointer;
 }
 
 .container__main__form__email:focus,

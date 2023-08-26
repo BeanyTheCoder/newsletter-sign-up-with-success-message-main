@@ -1,4 +1,4 @@
-import { emailInputValue } from "./index.js";
+import { emailInputValue } from './index.js'
 
-let emailText = document.querySelector('#emailText')
-emailText.textContent = emailInputValue
+console.log(emailInputValue)
+
