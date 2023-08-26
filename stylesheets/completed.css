@@ -48,7 +48,7 @@ body {
 .container__main__text {
   line-height: 165%;
   color: var(--dark-slate-grey);
-  font-size: 0.95em;
+  font-size: 0.9rem;
   margin-bottom: 2.5em;
 }
 
@@ -59,10 +59,10 @@ body {
 .container__button {
   text-align: center;
   text-decoration: none;
-  padding: 1.3em;
+  padding: 1.1em;
   width: 100%;
   border-radius: 0.5em;
-  font-size: 0.95em;
+  font-size: 0.9rem;
 
   /* to prevent white flashing when i hover, i use a linear gradient here with only 1 color*/
   background: linear-gradient(var(--dark-slate-grey), var(--dark-slate-grey));
@@ -96,5 +96,6 @@ body {
 
   .container__button {
     font-size: 0.9em;
+    padding: 1.3em;
   }
 }

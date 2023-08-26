@@ -15,7 +15,6 @@ This is a solution to the [Newsletter signup form challenge on Frontend Mentor](
 - [My process 🏗️](#my-process-🏗️)
   - [Built with 🛠️](#built-with-🛠️)
   - [What I learned 🧠](#what-i-learned-🧠)
-  - [Continued development 🚀](#continued-development-🚀)
   - [Useful resources 📚](#useful-resources-📚)
 - [Acknowledgments 🙏](#acknowledgments-🙏)
 - [Contact 📧](#contact-📧)
@@ -41,7 +40,7 @@ _My solution (Desktop):_
 
 ![image of desktop solution](./readme-images/desktop.png)
 
-_NB: I make the card a bit smaller by setting a `max-height` for the image. This is so it looks good even on narrower desktop screens(like mine)_ 
+_NB: I make the card a bit smaller by setting a `max-height` for the image. This is so it looks good even on narrower desktop screens(like mine)_
 
 _Success (Desktop):_
 
@@ -49,11 +48,11 @@ _Success (Desktop):_
 
 _My solution (Mobile)_
 
-![image of mobile solution]()
+![image of mobile solution](./readme-images/mobile.png)
 
 _Success (Mobile):_
 
-![image of success page mobile]()
+![image of success page mobile](./readme-images/mobile-success.png)
 
 ### Links 🔗
 
@@ -101,10 +100,6 @@ input:invalid {
 ---
 
 I also organised my files a bit more than in other projects _(because of the 2 html, css and js files i use instead of the usual 1)_
-
-### Continued development 🚀
-
-placeholder
 
 ### Useful resources 📚
 
