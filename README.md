@@ -58,6 +58,7 @@ _Success (Mobile):_
 
 - Solution repo on github [here](https://github.com/BeanyTheCoder/newsletter-sign-up-with-success-message-main)
 - Solution link on Front End Mentor: [here](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-WJWYfDTJDR)
+- Live site link: [here](https://beanythecoder.github.io/newsletter-sign-up-with-success-message-main/)
 
 ## My process 🏗️
 
